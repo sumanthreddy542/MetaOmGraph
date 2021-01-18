@@ -47,6 +47,13 @@
 		</plugins>
 
 	</build>
+		<repositories>
+	<repository>
+		<id>sing-repository</id>
+		<name>SING repository</name>
+		<url>http://maven.sing-group.org/repository/maven/</url>
+	</repository>
+</repositories>
 
 	<dependencies>
 		<dependency>
@@ -264,6 +271,36 @@
 			<version>0.3.9-1-1.5.3</version>
 			<classifier>linux-x86_64</classifier>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.sing_group</groupId>
+			<artifactId>gc4s</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.sing_group</groupId>
+			<artifactId>gc4s-heatmap</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		
+		<dependency>
+        <groupId>org.knowm.xchart</groupId>
+        <artifactId>xchart</artifactId>
+        <version>3.8.0</version>
+    </dependency>
+		
+		<!-- <dependency>
+			<groupId>com.mkobos</groupId>
+			<artifactId>pca_transform</artifactId>
+			<version>1.0.2</version>
+		</dependency> -->
+		
+		  <!--   <dependency>
+      <groupId>com.github.haifengl</groupId>
+      <artifactId>smile-core</artifactId>
+      <version>2.5.3</version>
+    </dependency> -->
 		
 	</dependencies>
 
